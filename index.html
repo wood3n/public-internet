@@ -14,7 +14,7 @@
     <script>
       function fetchLocalhost() {
         fetch('http://127.0.0.1:8080/index.js').then((res) => {
-          console.log(res);
+          console.log(res.text());
         });
       }
     </script>
